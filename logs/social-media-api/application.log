@@ -1,0 +1,149 @@
+2025-11-18 12:08:35.038  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 13868 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:08:35.039  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:08:35.212  INFO 13868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:08:35.212  INFO 13868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:08:35.237  INFO 13868 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/api]  : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:08:35.306  WARN 13868 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 987c527d-e1b6-4b85-84e7-6f8995d33d4b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 12:08:35.322  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 0.333 seconds (JVM running for 2012.914)
+2025-11-18 12:09:14.999  WARN 13868 --- [Thread-21] org.apache.tomcat.util.net.NioEndpoint   : Failed to unlock acceptor for [http-nio-8081] because the local address was not available
+2025-11-18 12:09:15.000  INFO 13868 --- [Thread-21] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-18 12:09:15.000 ERROR 13868 --- [http-nio-8081-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:548) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:129) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-11-18 12:09:15.073  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 13868 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:09:15.073  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:09:15.224  INFO 13868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:09:15.224  INFO 13868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:09:15.244  INFO 13868 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/api]  : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:09:15.306  WARN 13868 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0d653dcc-1b8f-4ce4-abd0-be2d302374a9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 12:09:15.322  INFO 13868 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 0.267 seconds (JVM running for 2052.914)
+2025-11-18 12:16:57.272  INFO 15600 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 15600 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:16:57.273  INFO 15600 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:16:59.088  INFO 15600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:16:59.088  INFO 15600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:16:59.165  INFO 15600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:16:59.788  WARN 15600 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cc85ed49-8e92-4868-82f0-751b70e71f98
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-18 12:17:00.168  INFO 15600 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 3.345 seconds (JVM running for 3.923)
+2025-11-18 12:17:10.258  INFO 15600 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 12:17:10.259  INFO 15600 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18 12:17:10.259  INFO 15600 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-18 12:23:03.786  WARN 15600 --- [Thread-5] org.apache.tomcat.util.net.NioEndpoint   : Failed to unlock acceptor for [http-nio-8081] because the local address was not available
+2025-11-18 12:23:03.786  INFO 15600 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-18 12:23:03.787  INFO 15600 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-18 12:23:03.791 ERROR 15600 --- [http-nio-8081-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:548) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:129) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-11-18 12:23:51.226  INFO 17924 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 17924 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:23:51.227  INFO 17924 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:23:52.464  INFO 17924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:23:52.464  INFO 17924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:23:52.534  INFO 17924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:23:53.135  INFO 17924 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.361 seconds (JVM running for 2.908)
+2025-11-18 12:23:58.394  INFO 17924 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 12:23:58.394  INFO 17924 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18 12:23:58.395  INFO 17924 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-18 12:24:25.316  INFO 2300 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 2300 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:24:25.317  INFO 2300 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:24:26.115  INFO 2300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:24:26.115  INFO 2300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:24:26.164  INFO 2300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:24:26.516  INFO 2300 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 1.54 seconds (JVM running for 2.178)
+2025-11-18 12:24:30.934  INFO 2300 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 12:24:30.935  INFO 2300 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18 12:24:30.935  INFO 2300 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-18 12:27:04.140  WARN 2300 --- [RMI TCP Connection(6)-127.0.0.1] org.apache.tomcat.util.net.NioEndpoint   : Failed to unlock acceptor for [http-nio-8081] because the local address was not available
+2025-11-18 12:27:04.141  INFO 2300 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-18 12:27:04.149  INFO 2300 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-18 12:27:04.157 ERROR 2300 --- [http-nio-8081-Acceptor] org.apache.tomcat.util.net.Acceptor      : Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:548) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:129) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-11-18 12:36:48.119  INFO 15520 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 15520 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:36:48.120  INFO 15520 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:36:49.341  INFO 15520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:36:49.341  INFO 15520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:36:49.406  INFO 15520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:36:49.965  INFO 15520 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.296 seconds (JVM running for 2.819)
+2025-11-18 12:36:57.604  INFO 15520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 12:36:57.604  INFO 15520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18 12:36:57.604  INFO 15520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-18 12:39:32.845 ERROR 15792 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalArgumentException: Sources must not be empty
+	at org.springframework.util.Assert.notEmpty(Assert.java:470) ~[spring-core-5.3.31.jar:5.3.31]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:400) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.18.jar:2.7.18]
+	at org.springframework.boot.SpringApplication.main(SpringApplication.java:1316) ~[spring-boot-2.7.18.jar:2.7.18]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.18.jar:2.7.18]
+
+2025-11-18 12:39:43.874  INFO 9848 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 9848 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:39:43.875  INFO 9848 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:39:45.111  INFO 9848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:39:45.111  INFO 9848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:39:45.177  INFO 9848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:39:45.756  INFO 9848 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.335 seconds (JVM running for 2.886)
+2025-11-18 12:40:13.869  INFO 16968 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 16968 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:40:13.870  INFO 16968 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:40:15.171  INFO 16968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:40:15.171  INFO 16968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:40:15.237  INFO 16968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:40:15.775  INFO 16968 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.344 seconds (JVM running for 2.887)
+2025-11-18 12:40:31.022  INFO 14156 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 14156 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 12:40:31.023  INFO 14156 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 12:40:32.285  INFO 14156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 12:40:32.286  INFO 14156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 12:40:32.351  INFO 14156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 12:40:32.904  INFO 14156 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.324 seconds (JVM running for 2.881)
+2025-11-18 14:22:44.529  INFO 18312 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Starting SocialMediaApiApplication using Java 17.0.8 on KB-CGO-614-Pragya with PID 18312 (D:\eclipse-workspace\target\classes started by acer in D:\eclipse-workspace)
+2025-11-18 14:22:44.530  INFO 18312 --- [restartedMain] c.w.s.SocialMediaApiApplication          : The following 1 profile is active: "prod"
+2025-11-18 14:22:45.814  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18 14:22:45.814  INFO 18312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-11-18 14:22:45.884  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-11-18 14:22:46.516  INFO 18312 --- [restartedMain] c.w.s.SocialMediaApiApplication          : Started SocialMediaApiApplication in 2.431 seconds (JVM running for 2.973)
+2025-11-18 14:22:50.517  INFO 18312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 14:22:50.517  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18 14:22:50.518  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-18 14:23:26.582  WARN 18312 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 2]]
